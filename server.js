@@ -3,7 +3,7 @@ import cors from 'cors'
 import 'dotenv/config'
 import ConnectDB from './config/mongodb.js'
 import connectCloudinary from './config/cloudinary.js'
-import adminRouter from './routes/adminroute.js'
+import adminRouter from './routes/adminRoute.js'
 import doctorRouter from './routes/doctorRoute.js'
 import userRouter from './routes/userRoutes.js'
 const app=express()
